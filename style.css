@@ -5,12 +5,10 @@
 }
 
 .header-section {
-    background-color: blue;
     height: 70px;
 }
 
 .hero-section {
-    background-color: green;
     height: 400px;
 }
 
@@ -21,7 +19,6 @@
 }
 
 .banner-section {
-    background-color: red;
     height: 100px;
 }
 
@@ -34,7 +31,6 @@
 .column {
     float: left;
     padding: 50px 0;
-    background-color: lightsalmon;
     position: relative;
     height: 300px;
     
