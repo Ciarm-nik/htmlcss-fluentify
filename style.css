@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header-section {
+    background-color: blue;
+    height: 70px;
+}
+
+.hero-section {
+    background-color: green;
+    height: 400px;
+}
+
+.container {
+    width: 1024px;
+    background-color: aquamarine;
+    margin: auto;
+}
+
+.banner-section {
+    background-color: red;
+    height: 100px;
+}
+
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.column {
+    float: left;
+    padding: 50px 0;
+    background-color: lightsalmon;
+    position: relative;
+    height: 300px;
+    
+}
+
+.col-3 {
+    width: 33.3%;
+}
+
+.col-2 {
+    width: 50%;
+}
+
+.btc {
+    border: 1px solid black;
+}
