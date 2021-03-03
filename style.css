@@ -38,7 +38,30 @@
 }
 
 .hero-section {
-    height: 400px;
+    background-color: blue;
+    height: 300px;
+    background-image: url(img/background-header.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: right; 
+    position: relative; 
+}
+
+.hero-section h1 {
+    color: white;
+    position: absolute;
+    top: 20%;
+    left: 25%;
+}
+
+.hero-section input {
+    position: absolute;
+    top: 50%;
+    left: 25%;
+}
+
+#button {
+    background-color: green;
 }
 
 .container {
@@ -53,7 +76,7 @@
 
 .column {
     float: left;
-    padding: 50px 0;
+    /* padding: 50px 0; */
     position: relative;
     height: 300px;
     
