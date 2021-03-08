@@ -4,13 +4,14 @@
     box-sizing: border-box;
 }
 
-              /* header */
+         /* header */
 
 .header-section {
-    height: 70px;
+    height: 100px;
     background-color: blue;
     position: relative;
 }
+
 
 .logo {
     width: 10%;
@@ -19,9 +20,9 @@
 }
 
 .primo_blocco {
-    left: 30%;
+    left: 25%;
     position: absolute;
-    top: 50%;
+    top: 39%;
 }
 
 .liste{
@@ -35,8 +36,22 @@
 
 .secondo_blocco {
     position: absolute;
-    left: 60%;
-    top: 50%;
+    left: 55%;
+    top: 38%;
+}
+
+.button_one {
+    padding: 5px;
+    border-radius: 5px;
+    background-color: blue;
+    color: white;
+}
+
+.button_two {
+    background-color: green;
+    padding: 5px;
+    color: white;
+    border-radius: 5px;
 }
 
      /* hero-section */
@@ -103,6 +118,7 @@
     color: green;
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 20px;
 }
 
 .left_side hr {
@@ -116,26 +132,26 @@
 
 /* 2 colonne */
 
-
-.foto {
-    background-image: url(img/mountain.svg);
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position-x: right;
+.text >* {
+    padding: 50px 50px;
 }
 
-
-.text >*{
-    padding: 40px;
-} 
+.foto {
+    padding-bottom: 20px;
+}
+   /* footer */
 
 .footer_left >*{
     padding: 25px;
 }
 
+.footer_right {
+    position: relative;
+}
+
 .footer_right ul {
 list-style: none;
-padding: 20px;
+padding-top: 20px;
 margin-left: 150px;
 }
 
@@ -144,8 +160,12 @@ margin-left: 150px;
 }
 
 .help {
-    position: fixed;
+    position: absolute;
+    bottom: -50px;
+    left: 321px;
 }
+
+
 /* selettori comuni */
 
 .btc {
@@ -167,6 +187,10 @@ margin-left: 150px;
     /* padding: 50px 0; */
     position: relative;
     height: 300px;    
+}
+
+.width_25 {
+    width: 25%;
 }
 
 .col-3 {
